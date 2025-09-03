@@ -3,6 +3,7 @@
 on: 
   push: 
     branches: ["master"]
+    
 # build docker image , push dockerhub
 env: 
   DOCKER_IMAGE_NAME: k8s-reactjs-dev09
